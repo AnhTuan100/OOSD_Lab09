@@ -1,0 +1,13 @@
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex 13275f1..1de677d 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -3,6 +3,7 @@[m [mout/[m
+ !**/src/main/**/out/[m
+ !**/src/test/**/out/[m
+ .kotlin[m
+[32m+[m[32m.idea/[m
+ [m
+ ### Eclipse ###[m
+ .apt_generated[m
